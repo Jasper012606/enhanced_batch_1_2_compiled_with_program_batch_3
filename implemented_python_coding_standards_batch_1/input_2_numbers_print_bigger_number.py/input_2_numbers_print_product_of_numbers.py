@@ -6,3 +6,4 @@ multiplier = int(input("Enter second number: "))
 product = multiplicand * multiplier
 
 #print the product
+print(product)
