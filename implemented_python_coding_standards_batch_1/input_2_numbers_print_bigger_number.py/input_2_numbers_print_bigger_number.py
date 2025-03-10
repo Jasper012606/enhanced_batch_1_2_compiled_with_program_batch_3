@@ -6,4 +6,6 @@ second_number = int(input("Enter second number: "))
 if first_number > second_number:
     print(first_number)
     #print first number if it is bigger
+else:
+    print(second_number)
     #print second number if it is bigger
