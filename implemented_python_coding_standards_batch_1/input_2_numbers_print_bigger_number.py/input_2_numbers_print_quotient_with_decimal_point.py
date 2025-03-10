@@ -6,3 +6,4 @@ divisor = int(input("Enter second number: "))
 quotient = dividend / divisor
 
 #print quotient
+print(quotient)
