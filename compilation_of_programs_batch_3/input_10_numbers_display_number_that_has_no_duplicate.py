@@ -1,4 +1,5 @@
 #make an empty list
+numbers = []
 #input 10 numbers
     #add numbers to the list
 #make an empty list of numbers without duplicates
