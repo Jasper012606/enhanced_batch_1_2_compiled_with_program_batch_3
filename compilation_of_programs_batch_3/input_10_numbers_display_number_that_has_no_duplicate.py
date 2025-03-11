@@ -12,4 +12,6 @@ number_without_duplicates = []
 for number in list_of_numbers:
     if list_of_numbers.count(number) == 1:
     #add number to the list if true
+        number_without_duplicates.append(number)
+    
 #print numbers without duplicates
