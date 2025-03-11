@@ -6,3 +6,4 @@ for remainding_numbers in range(9):
     #set the result as the difference of the first number subtracted by the remaining numbers
     result = first_number - remainding_numbers
 #print result
+print(result)
