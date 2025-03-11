@@ -8,3 +8,4 @@ for i in range(10):
     #add to odd_count if true
         odd_count += 1
 #print odd_count
+print(odd_count)
