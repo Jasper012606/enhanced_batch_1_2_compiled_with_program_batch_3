@@ -4,5 +4,7 @@ odd_count = 0
 for i in range(10):
     number = int(input("Enter number: "))
 #check if odd
+    if number % 2 != 0:
     #add to odd_count if true
+        odd_count += 1
 #print odd_count
