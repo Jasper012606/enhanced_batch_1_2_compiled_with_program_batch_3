@@ -8,3 +8,4 @@ for i in range(10):
         #add 1 to even count if true
         even_count += 1
 #print even count
+print(even_count)
