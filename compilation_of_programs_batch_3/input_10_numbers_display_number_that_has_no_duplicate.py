@@ -9,5 +9,7 @@ for i in range(10):
 #make an empty list of numbers without duplicates
 number_without_duplicates = []
 #check if number in numbers has no duplicates
+for number in list_of_numbers:
+    if list_of_numbers.count(number) == 1:
     #add number to the list if true
 #print numbers without duplicates
