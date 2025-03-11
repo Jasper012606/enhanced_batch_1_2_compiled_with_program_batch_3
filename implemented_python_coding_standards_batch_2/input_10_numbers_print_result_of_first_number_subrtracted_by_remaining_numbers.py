@@ -1,9 +1,9 @@
 #initialize the first number
 first_number = int(input("Enter a number: "))
 #input 9 remaining numbers
-for remainding_numbers in range(9):
-    remainding_numbers = int(input("Enter a number: "))
-    #set the result as the difference of the first number subtracted by the remaining numbers
-    first_number -= remainding_numbers
+for remaining_numbers in range(9):
+    remaining_numbers = int(input("Enter a number: "))
+    #subtract remaining numbers to first number
+    first_number -= remaining_numbers
 #print result
 print(first_number)
