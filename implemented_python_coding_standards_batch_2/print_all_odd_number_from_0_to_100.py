@@ -1,4 +1,4 @@
-#initialize number to 0
+#initialize number to 1
 number = 0
 #print all numbers from 0 to 100
 while number < 100:
