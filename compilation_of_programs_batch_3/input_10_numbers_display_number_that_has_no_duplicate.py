@@ -15,3 +15,4 @@ for number in list_of_numbers:
         number_without_duplicates.append(number)
     
 #print numbers without duplicates
+print(number_without_duplicates)
