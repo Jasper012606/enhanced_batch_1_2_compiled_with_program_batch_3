@@ -4,3 +4,4 @@ subtrahend = int(input("Enter another number: "))
 #get the difference of the numbers
 difference = minuend - subtrahend
 #print the difference
+print(difference)
