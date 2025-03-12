@@ -5,12 +5,12 @@ def valid_number():
     while True:
         try:
             number = int(input("Enter a number: "))
-        except ValueError:
-            break
         #check if input is valid
             #check if number is in the list
                 #print duplicate if true
                 #print unique if not true
                     #add number to the list
+        except ValueError:
+            break
 #call the function
 valid_number()
