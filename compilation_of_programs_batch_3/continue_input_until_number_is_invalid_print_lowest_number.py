@@ -12,6 +12,7 @@ def get_lowest_number():
             #set input to lowest number if true
                 lowest_number = number
         except ValueError:
+            print(lowest_number)
             break
 #call the function
 get_lowest_number()
