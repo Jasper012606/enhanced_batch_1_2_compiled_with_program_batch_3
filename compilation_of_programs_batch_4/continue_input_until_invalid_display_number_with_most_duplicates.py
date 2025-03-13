@@ -19,6 +19,5 @@ def number_with_most_duplicates():
             #if the list is empty, print no number entered
             else:
                 print("No number entered")
-                
-
+                exit()
 number_with_most_duplicates()
