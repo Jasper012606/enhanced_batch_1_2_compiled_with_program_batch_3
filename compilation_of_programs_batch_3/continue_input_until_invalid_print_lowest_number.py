@@ -8,7 +8,7 @@ def get_lowest_number():
             number = int(input("Enter a number: "))
         #if lowest number is None, set input to lowest number
             #check if next input is less than lowest number
-            if lowest_number == None or number < lowest_number:
+            if lowest_number is None or number < lowest_number:
             #set input to lowest number if true
                 lowest_number = number
         except ValueError:
