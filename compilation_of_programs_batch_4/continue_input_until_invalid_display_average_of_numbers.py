@@ -14,7 +14,7 @@ def average_of_numbers():
         except ValueError:
             #divide the sum of numbers by the average
             average = sum_of_numbers / number_count
+            #print the average
             print(average)
             break
-    #print the average
 average_of_numbers()
