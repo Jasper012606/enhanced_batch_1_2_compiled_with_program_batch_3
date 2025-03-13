@@ -5,6 +5,11 @@ def average_of_numbers():
     #initialize sum of numbers to 0
     sum_of_numbers = 0
     #ask user for input until input is invalid
+    while True: 
+        try:
+            number = int(input("Enter a number: "))
+        except ValueError:
+            break
     #for every input, add number to the first number, add 1 to average
     #divide the sum of numbers by the average
     #print the average
