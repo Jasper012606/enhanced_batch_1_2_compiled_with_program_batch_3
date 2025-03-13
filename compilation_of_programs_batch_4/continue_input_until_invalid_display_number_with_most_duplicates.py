@@ -6,9 +6,13 @@ def number_with_most_duplicates():
     while True:
         try:
             number = int(input("Enter a number: "))
+            #add input to the list
+            list_of_numbers.append(number)
         except ValueError:
+            #check which number in the list has the most duplicates
+            number_with_most_duplicates = max(list_of_numbers, key = list_of_numbers.count)
+            #print the number with the most duplicates
+            print(number_with_most_duplicates)
             break
-#add input to the list
-#check which number in the list has the most duplicates
-#print the number with the most duplicates
+
 number_with_most_duplicates()
