@@ -6,11 +6,13 @@ def lowest_to_highest():
     while True:
         try:
             number = int(input("Enter a number: "))
-            #check if input is not in the list of number
             #add input to list of numbers if true
+            list_of_numbers.append(number)
+        #if input is invalid, sort the list of numbers
         except ValueError:
+            list_of_numbers.sort()
+            #print the list of numbers
+            print(list_of_numbers)
             break
-    #if input is invalid, sort the list of numbers
-    #print the list of numbers
 #call the function
 lowest_to_highest()
