@@ -12,5 +12,6 @@ def get_highest_number():
                 #set input to highest number if true
                 highest_number = number
         except ValueError:
+            print(highest_number)
             break
 get_highest_number()
