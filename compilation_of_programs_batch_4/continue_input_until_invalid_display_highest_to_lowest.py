@@ -10,8 +10,8 @@ def highest_to_lowest():
             list_of_numbers.append(number)
         #if input is invalid
         except ValueError:
-            #sort the list of numbers
-            list_of_numbers.sort()
+            #sort the list of numbers from highest to lowest
+            list_of_numbers.sort(reverse = True)
             #print the list of numbers
             print(list_of_numbers)
             break
